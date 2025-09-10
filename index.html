@@ -41,6 +41,68 @@ margin:20px auto;
 border:2px solid navy;
 }
 
+.table-style1 th, .table-style1 td {
+border: 1px solid navy;
+padding: 10px;
+text-align: center;
+}
+
+.table-style1 th {
+background-color: lightblue;
+}
+
+.table-style2 {
+width: 60%;
+margin: 20px auto;
+border-collapse: collapse;
+border: 2x solid darkgreen;
+}
+
+.table-style2 th, .table-style2 td {
+border: 1px solid darkgreen;
+padding: 10px
+text-align: center;
+}
+
+.table-style2 th {
+background-color: lightgreen;
+}
+
+.about {
+width: 60%;
+margin: 20px auto;
+text-align: left;
+}
+
+div.mycontainer{
+width :66%;
+overflow: auto;
+}
+div.mycontainer div{
+width:50%;
+float:left;
+}
+
+.video {
+width: 40%;
+margin: 10px auto;
+text-align: center;
+border: 3px solid green;
+}
+
+.list-style1{
+list-style-type: square;
+color: darkblue;
+text-align: left;
+margin: 20px:
+}
+
+.list-style2{
+list-style-type: circle;
+color: darkgreen;
+text-align: left;
+margin: 20px
+}
 
 </style>
 
@@ -54,21 +116,20 @@ Name: Brenden Shryock
 Age: 48
 location: Olathe, Ks
 </pre></header>
-<section>
+<section class="about">
 <p>Check out my favorite website:<a href="https://www.youtube.com/" target="_blank">You Tube</a>
 </p>
 
 <a href="mailto:bigboys3399@live.com" target="_blank">Brenden's Email</a>
 <a href="https://classroom.google.com/w/NjYwMjA5OTExNjc5/t/all"target="_blank">
-<img src=https://github.com/Pages-by-BS/CWP1/blob/main/B2T%20Pic.jpg?raw=true"alt="Sample Image"></a>
+<img src=https://github.com/Pages-by-BS/CWP1/blob/main/B2T%20Pic.jpg?raw=true"alt="Sample Image" title="Brenden"></a>
 </section>
 
 
 
 <hr>
-
 <h2>My Hobbies</h2>
-<table>
+<table class="table-style1">
 <tr>
 <th>Hobby</th>
 <th>Hours/Week</th>
@@ -84,8 +145,9 @@ location: Olathe, Ks
 </tr>
 </table>
 
+
 <h2>My Favorite Movies</h2>
-<table>
+<table class="table-style2">
 <tr>
 <th>Movie</th>
 <th>Year</th>
@@ -100,20 +162,27 @@ location: Olathe, Ks
 </tr>
 </table>
 
+
+<div class="mycontainer">
+<div>
 <h2>My Favorite Food</h2>
-<ul>
+<ul class="list-style1">
 <li>Food One</li>
 <li>Food Two</li>
 <li>Food Three</li>
 </ul>
+</div>
+<div>
 <h2>My Favorite Drinks</h2>
-<ul>
+<ul class="list-style2">
 <li>Drink 1</li>
 <li>Drink 2</li>
 <li>Drink 3</li>
 </ul>
+</div>
+</div>
 
-<section>
+<section class="video">
 <h2>My Favorite Video</h2>
 <video width="480" height="360"controls>
 <source src="https://github.com/Pages-by-BS/CWP1/blob/main/Cats%20Video.mp4?raw=True">
