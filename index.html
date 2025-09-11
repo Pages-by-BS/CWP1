@@ -130,6 +130,19 @@ margin: 20px
   text-align: center;
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.grid-item{
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
 </style>
   
 
@@ -249,6 +262,15 @@ Your browser does not support the video tag,
   <div class="flex-item">Item 3</div>
 </div>
 
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+</div>
+  
 </body>
 
 </html>
