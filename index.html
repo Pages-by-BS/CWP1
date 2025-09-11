@@ -107,13 +107,27 @@ margin: 20px
   background-color: navy;
   color: white;
   padding: 10px 20px;
-  transition: background-color 0.3 ease;
+  transition: background-color 0.3s ease;
   border: none;
   cursor: pointer;
 }
 
 .button-transition:hover{
-  background-color:darkorange;
+  background-color: darkorange;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  padding: 20px;
+}
+.flex-item{
+  background-color: steelblue;
+  color: white;
+  paddin:20px;
+  width: 30%;
+  text-align: center;
 }
 
 </style>
@@ -130,7 +144,7 @@ Age: 48
 location: Olathe, Ks
 </pre>
 <a href="test.html" style="color:black";target="_blank";>
-<button class="button transition">New Page Link</button></a>
+<button class="button-transition">New Page Link</button></a>
 
 </header>
 <section class="about">
@@ -226,8 +240,7 @@ Your browser does not support the video tag,
 <input type="text" id="user" name="user" placeholder="Enter your username" required>
 <br><br>
 <label for="pass">Password:</label>
-  
-  
+<input type="submit" value="Login"> 
 </form>
 
 </body>
